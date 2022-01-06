@@ -10,6 +10,9 @@ This was done as a part of Assignment 1 for the course *Computer Networking* at 
 
 - The script contains three configuration variables, which can be customised. It doesn't provide a way to set them through command-line options however, so they will have to be changed in the source code. For instance, the `NUM_PROBES` variable sets how many probes to send out for each `ttl` value. Currently it is set to 3, like the default in `traceroute`.
 
-![Example Script Output](figures/output.png)
+<span class="img_container center" style="display: block;">
+    <img alt="test" src="figures/output.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
+    <span class="img_caption" style="display: block; text-align: center;">Example Script Output</span>
+</span>
 
 ![Plot of Average RTT vs Hop Number](figures/rtt_plot.png)
